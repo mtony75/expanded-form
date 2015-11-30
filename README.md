@@ -15,3 +15,6 @@ an number and get back the expanded form of the number in base
 They would receive back as an answer
 
 ``` 2 100s + 4 10s + 3 1s ```
+
+### Update __20151130
+Can successfully tell if input is a number or a string (mixed case)
