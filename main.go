@@ -24,7 +24,7 @@ func main() {
 	// tell how many spaces it is (powers of 10).
 	// breakdown into expanded form
 
-	var userNumber int
+	var userNumber, powerOf int
 	var rawuserNumber string
 	fmt.Printf("Please enter a non negative number: ")
 	fmt.Scanf("%s", &rawuserNumber)
@@ -34,12 +34,14 @@ func main() {
 	// 	fmt.Println(err)
 	if notInt {
 		fmt.Println("You did not enter an Integer")
+		
 	} else {
 		fmt.Println("That is an Integer")
 		userNumber, _ = strconv.Atoi(rawuserNumber)
-
+		fmt.Println(userNumber)
 	}
+	
 
-	fmt.Println(userNumber)
+	
 
 }
