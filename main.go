@@ -34,14 +34,19 @@ func main() {
 	// 	fmt.Println(err)
 	if notInt {
 		fmt.Println("You did not enter an Integer")
-		
+
 	} else {
 		fmt.Println("That is an Integer")
 		userNumber, _ = strconv.Atoi(rawuserNumber)
 		fmt.Println(userNumber)
 	}
-	
 
-	
+	// use algorithm to find how how big a number is and
+	// use that to display the expanded form.
+	fmt.Println("Start of For Loop")
 
+	for powerOf = 10; userNumber != (userNumber % powerOf); powerOf = powerOf * 10 {
+		//		fmt.Println(powerOf)
+
+	}
 }
